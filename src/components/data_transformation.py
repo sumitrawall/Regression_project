@@ -70,7 +70,7 @@ class DataTransformation:
             logging.info('Exception occured in Data Transformation Phase')
             raise CustomException(e,sys)
         
-    def initate_data_transformation(self,train_path,test_path):
+    def initiate_data_transformation(self,train_path,test_path):
 
         try:
             # Reading train and test data
